@@ -1,0 +1,28 @@
+# Ждем цвета 0 0 0 пикселя 40 200
+wait_pixel 40 200 0 0 0
+wait 2000
+
+# Перемещаем курсор на 964 60
+mouse move 964 60
+
+# Нажимаем левую клавишу мыши
+mouse press 0 true
+# Ждем 100 мс
+wait 100
+# Отпускаем левую клавишу мыши
+mouse press 0 false
+
+mouse move 300 300
+mouse press 0 true
+wait 100
+mouse press 0 false
+
+# Перезапуск скрипта
+reset
+
+# Прокрутка колесика на 2 клика
+mouse wheel 2
+
+keyboard 20 true
+wait 100
+keyboard 20 false
