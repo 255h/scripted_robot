@@ -1,4 +1,4 @@
-#Tiny automation utility based on Java Robot.
+# Tiny automation utility based on Java Robot.
 
 Usage:
 java -jar scripted_robot.jar script.txt
