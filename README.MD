@@ -1,13 +1,17 @@
 # Tiny automation utility based on Java Robot.
 
 Usage:
+````
 java -jar scripted_robot.jar script.txt
+````
+where script.txt is you script.
 
 # Basic syntax
 ````
 command arg1 arg2 arg3 arg4 arg5
 ````
-Separator is exactly 1 space.
+Separator is exactly 1 space. 
+Unknown commands are treated as comments.
 
 ## Supported commands:
 
