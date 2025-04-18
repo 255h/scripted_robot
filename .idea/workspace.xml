@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41c127c-8326-4208-9b69-39dee6ef6ef0" name="Changes" comment="" />
+    <list default="true" id="d41c127c-8326-4208-9b69-39dee6ef6ef0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +31,12 @@
     &quot;assignee&quot;: &quot;255h&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:255h/scripted_robot.git&quot;,
-    &quot;accountId&quot;: &quot;d3695daa-cb3f-4fcc-8982-4bf0e7be37bb&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/255h/scripted_robot.git",
+    "accountId": "d3695daa-cb3f-4fcc-8982-4bf0e7be37bb"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -47,6 +51,8 @@
     "Application.ScriptedRobot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/rv.semenov/IdeaProjects/scripted_robot",
     "node.js.detected.package.eslint": "true",
@@ -91,6 +97,7 @@
       <workItem from="1744973279407" duration="560000" />
       <workItem from="1744973884322" duration="152000" />
       <workItem from="1744974085083" duration="7000" />
+      <workItem from="1744974115563" duration="519000" />
     </task>
     <servers />
   </component>
