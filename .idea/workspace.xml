@@ -7,7 +7,13 @@
     <list default="true" id="d41c127c-8326-4208-9b69-39dee6ef6ef0" name="Changes" comment="readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/ScriptedRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/ScriptedRobot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/KeyboardButtonCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/KeyboardButtonCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseButtonCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseButtonCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseMoveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseMoveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseWheelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseWheelCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/RestartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/RestartCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitPixelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitPixelCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,9 @@
     &quot;accountId&quot;: &quot;d3695daa-cb3f-4fcc-8982-4bf0e7be37bb&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -60,9 +69,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -98,7 +108,8 @@
       <workItem from="1744973884322" duration="152000" />
       <workItem from="1744974085083" duration="7000" />
       <workItem from="1744974115563" duration="1994000" />
-      <workItem from="1744980534020" duration="2208000" />
+      <workItem from="1744980534020" duration="2992000" />
+      <workItem from="1745229016845" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <option name="closed" value="true" />
@@ -124,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744980662357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="readme">
+      <option name="closed" value="true" />
+      <created>1744986742878</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744986742878</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

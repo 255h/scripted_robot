@@ -7,7 +7,7 @@ import java.awt.event.InputEvent;
 public class MouseButtonCommand implements Callable {
     int button;
     boolean down;
-    int[] buttons = {InputEvent.BUTTON1_MASK,InputEvent.BUTTON2_MASK};
+    int[] buttons = {InputEvent.BUTTON1_DOWN_MASK,InputEvent.BUTTON2_DOWN_MASK};
 
     /**
      * Нажатие клавиши мыши
@@ -21,7 +21,7 @@ public class MouseButtonCommand implements Callable {
 
     @Override
     public void call() {
-        Robot robot = null;
+        Robot robot;
         try {
             robot = new Robot();
         } catch (AWTException e) {

@@ -25,7 +25,7 @@ public class WaitPixelCommand implements Callable{
 
     @Override
     public void call() {
-        Robot robot = null;
+        Robot robot;
         try {
             robot = new Robot();
         } catch (AWTException e) {
@@ -36,7 +36,7 @@ public class WaitPixelCommand implements Callable{
         Color target = new Color(r, g, b);
 
         do {
-            robot.delay(500);
+            robot.delay(100);
             Color pixel = robot.getPixelColor(x, y);
 
             if (target.equals(pixel)){

@@ -11,7 +11,7 @@ public class MouseWheelCommand implements Callable{
 
     @Override
     public void call() {
-        Robot robot = null;
+        Robot robot;
         try {
             robot = new Robot();
         } catch (AWTException e) {

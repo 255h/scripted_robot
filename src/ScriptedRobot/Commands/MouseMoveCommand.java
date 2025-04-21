@@ -8,8 +8,8 @@ public class MouseMoveCommand implements Callable {
 
     /**
      * Переместить мышь на координату
-     * @param x
-     * @param y
+     * @param x - x coordinate
+     * @param y - y coordinate
      */
     public MouseMoveCommand(int x, int y) {
         this.x = x;
@@ -18,7 +18,7 @@ public class MouseMoveCommand implements Callable {
 
     @Override
     public void call() {
-        Robot robot = null;
+        Robot robot;
         try {
             robot = new Robot();
         } catch (AWTException e) {

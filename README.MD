@@ -15,7 +15,7 @@ Unknown commands are treated as comments.
 
 ## Supported commands:
 
-### Wait for pixe color
+### Wait for pixel color
 ```
 wait_pixel <x> <y> <r> <g> <b>
 ```
