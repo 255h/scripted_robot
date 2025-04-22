@@ -46,29 +46,20 @@ public class ScriptFactory {
         String arg4 = extractArgument(arguments,4);
         String arg5 = extractArgument(arguments,5);
 
-        Callable command = null;
-        switch (cmd) {
-            case "mouse":
-                if (arg1.equals("move")){
-                    command = new MouseMoveCommand(Integer.parseInt(arg2),Integer.parseInt(arg3));
-                } else if (arg1.equals("press")) {
-                    command = new MouseButtonCommand(Integer.parseInt(arg2),Boolean.parseBoolean(arg3));
-                } else if (arg1.equals("wheel")) {
-                    command = new MouseWheelCommand(Integer.parseInt(arg2));
-                }
-                break;
-            case "keyboard":
-                command = new KeyboardButtonCommand(Integer.parseInt(arg1),Boolean.parseBoolean(arg2));
-                break;
-            case "wait":
-                command = new WaitCommand(Integer.parseInt(arg1));
-                break;
-            case "wait_pixel":
-                command = new WaitPixelCommand(Integer.parseInt(arg1),Integer.parseInt(arg2),Integer.parseInt(arg3),Integer.parseInt(arg4),Integer.parseInt(arg5));
-                break;
-            case "reset":
-                command = new RestartCommand(script);
-        }
+        Callable command;
+        command = switch (cmd) {
+            case "mouse" -> switch (arg1) {
+                case "move" -> new MouseMoveCommand(Integer.parseInt(arg2), Integer.parseInt(arg3));
+                case "press" -> new MouseButtonCommand(Integer.parseInt(arg2), Boolean.parseBoolean(arg3));
+                case "wheel" -> new MouseWheelCommand(Integer.parseInt(arg2));
+                default -> null;
+            };
+            case "keyboard" -> new KeyboardButtonCommand(Integer.parseInt(arg1), Boolean.parseBoolean(arg2));
+            case "wait" -> new WaitCommand(Integer.parseInt(arg1));
+            case "wait_pixel" -> new WaitPixelCommand(Integer.parseInt(arg1), Integer.parseInt(arg2), Integer.parseInt(arg3), Integer.parseInt(arg4), Integer.parseInt(arg5));
+            case "reset" -> new RestartCommand(script);
+            default -> null;
+        };
 
         return command;
 
