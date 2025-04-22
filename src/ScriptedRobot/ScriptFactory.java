@@ -8,10 +8,10 @@ import ScriptedRobot.Commands.*;
 
 public class ScriptFactory {
      /**
-     * Фабрика
-     * Открывает и парсит скрипт.
-     * @param scriptName - имя текстового файла со скриптом
-     * @return - Инстанция "скрипта"
+     * Factory
+     * Open & parse script from txt file
+     * @param scriptName - script file name
+     * @return - instance of Script
      */
     static public Script GetScript(String scriptName) {
         Script script = new Script();

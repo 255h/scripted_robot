@@ -8,7 +8,7 @@ public class WaitPixelCommand implements Callable{
     int r,g,b;
 
     /**
-     * Ожидать цвет R,G,B на координатах X, Y экрана
+     * Wait for piexl color of R,G,B at X, Y экрана
      * @param x - x
      * @param y - y
      * @param r - r

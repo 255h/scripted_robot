@@ -15,8 +15,8 @@ public class Script  {
     }
 
     /**
-     * Добавляет комманду в скрипт
-     * @param command - комманда типа Callable
+     * Adds command to script
+     * @param command - typed Callable
      */
     public void AddCommand(Callable command) {
 
@@ -24,7 +24,7 @@ public class Script  {
     }
 
     /**
-     * Выполнить скрипт
+     * Execute script start to finish
      */
     public void execute() {
         programCounter = 0;

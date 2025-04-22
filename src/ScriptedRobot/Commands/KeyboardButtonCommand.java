@@ -7,9 +7,9 @@ public class KeyboardButtonCommand implements Callable {
     boolean down;
 
     /**
-     * Нажатие на клавишу клавиатуры
-     * @param key  - Код клавиши
-     * @param down - true - Нажать/ false - отпустить
+     * Simulate keyboard keypress
+     * @param key  - VK_CODE of key
+     * @param down - true - press/ false - release
      */
     public KeyboardButtonCommand(int key, boolean down) {
         this.key = key;

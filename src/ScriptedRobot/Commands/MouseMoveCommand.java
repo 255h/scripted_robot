@@ -7,7 +7,7 @@ public class MouseMoveCommand implements Callable {
     int y;
 
     /**
-     * Переместить мышь на координату
+     * Move mouse to coordinate
      * @param x - x coordinate
      * @param y - y coordinate
      */

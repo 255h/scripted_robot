@@ -6,8 +6,8 @@ public class WaitCommand implements Callable {
     int delay;
 
     /**
-     * Ожидать
-     * @param delay - задержка в мс
+     * Wait
+     * @param delay - delay (ms)
      */
     public WaitCommand(int delay) {
         this.delay = delay;

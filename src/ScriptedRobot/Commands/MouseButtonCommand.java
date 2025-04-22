@@ -10,9 +10,9 @@ public class MouseButtonCommand implements Callable {
     int[] buttons = {InputEvent.BUTTON1_DOWN_MASK,InputEvent.BUTTON2_DOWN_MASK};
 
     /**
-     * Нажатие клавиши мыши
-     * @param button - 1 - левая, 2 - правая
-     * @param down - true - нажать, false - отпустить
+     * Simulate mouse click
+     * @param button - 1 - left, 2 - right
+     * @param down - true - press, false - release
      */
     public MouseButtonCommand(int button, boolean down) {
         this.button = button;
