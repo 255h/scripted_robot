@@ -3,12 +3,12 @@ package ScriptedRobot;
 import ScriptedRobot.Commands.Callable;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+
 
 
 public class Script  {
     private int programCounter;
-    protected ArrayList<Callable> commands = new ArrayList<Callable>( );
+    protected ArrayList<Callable> commands = new ArrayList<>( );
 
     public void Goto(int pc){
         programCounter = pc;
