@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d41c127c-8326-4208-9b69-39dee6ef6ef0" name="Changes" comment="readme">
+    <list default="true" id="d41c127c-8326-4208-9b69-39dee6ef6ef0" name="Changes" comment="Fixes &amp; warning msg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/KeyboardButtonCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/KeyboardButtonCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseButtonCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseButtonCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseMoveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseMoveCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseWheelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/MouseWheelCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/RestartCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/RestartCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitPixelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Commands/WaitPixelCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/Script.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/Script.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScriptedRobot/ScriptedRobot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScriptedRobot/ScriptedRobot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +103,8 @@
       <workItem from="1744974085083" duration="7000" />
       <workItem from="1744974115563" duration="1994000" />
       <workItem from="1744980534020" duration="2992000" />
-      <workItem from="1745229016845" duration="8000" />
+      <workItem from="1745229016845" duration="4044000" />
+      <workItem from="1745319532544" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="readme">
       <option name="closed" value="true" />
@@ -143,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744986742878</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixes &amp; warning msg">
+      <option name="closed" value="true" />
+      <created>1745229048456</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745229048456</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +197,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="Fixes &amp; warning msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixes &amp; warning msg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

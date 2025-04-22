@@ -3,9 +3,10 @@ package ScriptedRobot;
 import ScriptedRobot.Commands.Callable;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
-public class Script {
+public class Script  {
     private int programCounter;
     protected ArrayList<Callable> commands = new ArrayList<Callable>( );
 
@@ -44,4 +45,5 @@ public class Script {
 
         }while(is_running);
     }
+
 }
