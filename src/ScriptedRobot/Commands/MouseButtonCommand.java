@@ -27,10 +27,14 @@ public class MouseButtonCommand implements Callable {
         } catch (AWTException e) {
             throw new RuntimeException(e);
         }
-        if (down)
+        if (down) {
+            System.out.println("Pressing button " + button);
             robot.mousePress(buttons[button]);
-        else
+        }
+        else {
+            System.out.println("Releasing button " + button);
             robot.mouseRelease(buttons[button]);
+        }
     }
 }
 

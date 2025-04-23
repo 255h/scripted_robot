@@ -24,9 +24,12 @@ public class KeyboardButtonCommand implements Callable {
         } catch (AWTException e) {
             throw new RuntimeException(e);
         }
-        if (down)
+        if (down) {
+            System.out.println("Pressing " + key);
             robot.keyPress(key);
-        else
+        }else{
+            System.out.println("Releasing " + key);
             robot.keyRelease(key);
+        }
     }
 }

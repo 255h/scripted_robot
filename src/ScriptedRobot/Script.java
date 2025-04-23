@@ -41,8 +41,6 @@ public class Script  {
 
             command.call();
 
-
-
         }while(is_running);
     }
 

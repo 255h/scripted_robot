@@ -11,6 +11,7 @@ public class RestartCommand implements  Callable{
 
     @Override
     public void call() {
+        System.out.println("Restarting script");
         script.Goto(0);
     }
 }

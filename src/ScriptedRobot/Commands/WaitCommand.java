@@ -20,6 +20,7 @@ public class WaitCommand implements Callable {
         } catch (AWTException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Waiting for " + delay + " ms");
         robot.delay(delay);
     }
 }

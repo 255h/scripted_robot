@@ -17,6 +17,7 @@ public class MouseWheelCommand implements Callable{
         } catch (AWTException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Scrolling mouse for " + amount  );
         robot.mouseWheel(amount);
     }
 }

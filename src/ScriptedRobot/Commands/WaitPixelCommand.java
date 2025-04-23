@@ -34,12 +34,13 @@ public class WaitPixelCommand implements Callable{
 
         boolean found = false;
         Color target = new Color(r, g, b);
-
+        System.out.printf("Waiting for pixel [%d,%d,%d] at (%d,%d)\n", r,g,b,x,y );
         do {
             robot.delay(100);
             Color pixel = robot.getPixelColor(x, y);
 
             if (target.equals(pixel)){
+                System.out.println("Pixel found!");
                 found = true;
             }
         }while(!found);

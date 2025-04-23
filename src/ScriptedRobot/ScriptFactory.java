@@ -1,35 +1,31 @@
 package ScriptedRobot;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 import ScriptedRobot.Commands.*;
 
 public class ScriptFactory {
+
      /**
      * Factory
-     * Open & parse script from txt file
-     * @param scriptName - script file name
+     * parse script from raw String array
+     * @param raw - raw script
      * @return - instance of Script
      */
-    static public Script GetScript(String scriptName) {
+    static public Script GetScript(String[] raw) {
         Script script = new Script();
 
-        File script_file = new File(scriptName);
-        Scanner scanner;
-        try {
-            scanner = new Scanner(script_file);
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
-        }
+        for(String line : raw) {
 
-        while (scanner.hasNextLine()) {
-            String line = scanner.nextLine();
+            // Skip comments
+            if( line.startsWith("#") || line.isEmpty() )
+                continue;
+
             Callable cmd = parseCommand(line,script);
             if (cmd != null) {
                 script.AddCommand(cmd);
-            }
+            } else
+                System.out.println("Unknown command: " + line);
+
         }
 
         return script;
@@ -59,6 +55,7 @@ public class ScriptFactory {
             case "wait_pixel" -> new WaitPixelCommand(Integer.parseInt(arg1), Integer.parseInt(arg2), Integer.parseInt(arg3), Integer.parseInt(arg4), Integer.parseInt(arg5));
             case "reset" -> new RestartCommand(script);
             default -> null;
+
         };
 
         return command;

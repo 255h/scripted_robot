@@ -24,6 +24,7 @@ public class MouseMoveCommand implements Callable {
         } catch (AWTException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("Moving mouse to " + x + ", " + y);
         robot.mouseMove(x,y);
     }
 }

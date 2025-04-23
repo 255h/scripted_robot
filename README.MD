@@ -11,7 +11,7 @@ where script.txt is you script.
 command arg1 arg2 arg3 arg4 arg5
 ````
 Separator is exactly 1 space. 
-Unknown commands are treated as comments.
+strings starting from # are treated as comments.
 
 ## Supported commands:
 
